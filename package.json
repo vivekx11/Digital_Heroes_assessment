@@ -1,0 +1,30 @@
+{
+  "name": "page-pulse-monorepo",
+  "version": "1.0.0",
+  "description": "Page Pulse - Web Page SEO and Technical Auditor",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "start": "npm run dev",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "start:backend": "npm start --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "test:backend": "npm test --prefix backend",
+    "postinstall": "npm run install:all"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "page-audit",
+    "seo",
+    "performance",
+    "express",
+    "react",
+    "cheerio"
+  ],
+  "author": "Digital Heroes Task",
+  "license": "MIT"
+}
