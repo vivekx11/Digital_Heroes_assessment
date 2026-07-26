@@ -4,13 +4,13 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 **Page Pulse** is a full-stack web application designed to instantly audit any public webpage by URL. It evaluates key performance, technical, and SEO parameters including HTTP status codes, server response times, title tags, meta descriptions, H1 heading counts, image accessibility (`alt` attributes), and total body word counts.
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Real-Time Web Scrape & Audit**: Analyzes page HTML structure server-side via Cheerio and calculates latency timing.
 - **Modern Responsive UI**: Built with React, Vite, and Tailwind CSS with custom micro-animations and clean glassmorphism styling.
@@ -23,7 +23,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Node.js**: Asynchronous JavaScript runtime.
@@ -47,7 +47,7 @@
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```text
 DigitalHeroes/
@@ -103,7 +103,7 @@ DigitalHeroes/
 
 ---
 
-## 🚀 Installation & Local Setup
+##  Installation & Local Setup
 
 ### Quick Start (Single Command)
 
@@ -120,7 +120,7 @@ DigitalHeroes/
 
 ---
 
-## 🔧 Running Backend & Frontend Individually
+##  Running Backend & Frontend Individually
 
 ### Run Backend
 ```bash
@@ -140,7 +140,7 @@ The Vite frontend will run on `http://localhost:5173`.
 
 ---
 
-## 📄 API Contract
+##  API Contract
 
 ### Endpoint
 `POST /api/audit`
@@ -208,7 +208,7 @@ The Vite frontend will run on `http://localhost:5173`.
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 To execute the Jest + Supertest unit test suite:
 
@@ -230,7 +230,7 @@ npm test
 
 ---
 
-## 🌐 Deployment Configuration
+##  Deployment Configuration
 
 ### Deploying Backend to Render
 1. Create a new **Web Service** on [Render](https://render.com).
@@ -255,7 +255,7 @@ npm test
 
 ---
 
-## 💡 Three Key Design Decisions
+##  Three Key Design Decisions
 
 ### 1. Separation of Express `app.js` and `server.js`
 - **Decision**: Express middleware configuration (`app.js`) was decoupled from server instantiation (`server.js`).
@@ -271,7 +271,7 @@ npm test
 
 ---
 
-## 🤖 AI Usage Disclosure
+##  AI Usage Disclosure
 
 ### How AI Assisted Development
 - **Architectural Planning**: AI assisted in breaking down the system into modular components (`controllers`, `services`, `utils`, `components`, `hooks`).
@@ -285,6 +285,6 @@ npm test
 
 ---
 
-## 🏷️ Footer Requirement
+## Footer Requirement
 
 [Built for Digital Heroes Training Task](https://digitalheroesco.com)
