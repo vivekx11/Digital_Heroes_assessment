@@ -1,5 +1,4 @@
-# Page Pulse 
----------------------
+
 
 > Production-ready Web Page Technical & SEO Auditor built with Node.js, Express, React (Vite), and Tailwind CSS.
 
