@@ -1,9 +1,5 @@
 
 
-> Production-ready Web Page Technical & SEO Auditor built with Node.js, Express, React (Vite), and Tailwind CSS.
-
----
-
 ##  Project Overview
 
 **Page Pulse** is a full-stack web application designed to instantly audit any public webpage by URL. It evaluates key performance, technical, and SEO parameters including HTTP status codes, server response times, title tags, meta descriptions, H1 heading counts, image accessibility (`alt` attributes), and total body word counts.
