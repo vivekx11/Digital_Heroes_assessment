@@ -281,8 +281,3 @@ npm test
 
 ---
 
-## Footer Requirement
-
-
-
-[Built for Digital Heroes Training Task](https://digitalheroesco.com)
