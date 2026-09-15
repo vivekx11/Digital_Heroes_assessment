@@ -278,5 +278,3 @@ npm test
 - **Footer Compliance**: Verified that the footer strictly outputs `Built for Digital Heroes Training Task` hyperlinked to `https://digitalheroesco.com`.
 - **Test Mocking**: Added `nock` isolation to ensure tests execute offline reliably without hitting external networks.
 
----
-
