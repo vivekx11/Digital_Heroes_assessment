@@ -264,7 +264,6 @@ npm test
 - **Decision**: Recent audit queries are saved in `localStorage` limited to the 5 most recent unique entries.
 - **Rationale**: Storing audit history locally provides immediate value to users without requiring a database backend or user authentication. It allows users to switch between recently analyzed pages instantly with zero latency.
 
----
 
 ##  AI Usage Disclosure
 
